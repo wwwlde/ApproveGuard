@@ -1,5 +1,7 @@
 # 🚪🔒🗝️ ApproveGuard
 
+> ⭐️⭐️⭐️ If you find this project useful, please consider giving it a star on GitHub. This helps draw attention to the project and encourages ongoing development. Thank you!
+
 ## Overview
 
 This CLI tool checks the number of upvotes for a GitLab Merge Request (MR). It is designed to run within an Atlantis workflow and aims to fill the gap in features between GitLab Community Edition and the Enterprise Edition.
