@@ -35,7 +35,7 @@ GitLab Community Edition is an open-source platform that provides a wide array o
 To build the project, run:
 
 ```
-CGO_ENABLED=0 go build -o ./ApproveGuard --ldflags '-w -s -extldflags "-static" -X main.version=0.0.1' .
+CGO_ENABLED=0 go build -o ./ApproveGuard --ldflags '-w -s -extldflags "-static"' .
 ```
 
 ## ⚙ Options

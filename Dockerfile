@@ -1,4 +1,3 @@
-
 FROM golang:1.21.0 as builder
 
 WORKDIR /build/

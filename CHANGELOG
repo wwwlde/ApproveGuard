@@ -1,0 +1,26 @@
+# Changelog
+
+## [v0.1.0] - 2025-01-28
+
+### Added
+- Added context with timeout for all GitLab API requests.
+- Added HTTP client timeout for GitLab API calls.
+- Added validation for `upvotesThreshold` and `mergeRequestID` to ensure positive values.
+- Added unit tests for `getProjectIDFromURL` and `extractProtocolAndDomain`.
+
+### Fixed
+- Fixed incorrect command name in `--help` output (changed from `BlockMaster` to `ApproveGuard`).
+- Improved error messages for missing or invalid input parameters.
+- Fixed potential panic when parsing invalid URLs.
+
+### Improved
+- Added default version (`dev`) if not set during build.
+- Improved logging with more descriptive messages.
+- Added token permission validation (checks if token has `read_api` access).
+
+### Security
+- Added timeout for HTTP requests to prevent hanging.
+
+### Documentation
+- Added detailed comments for Atlantis environment variables in `repos.yaml`.
+- Updated README with instructions for running tests.
