@@ -3,7 +3,7 @@ module linuxhelp.com.ua
 go 1.23.0
 
 require (
-	github.com/spf13/cobra v1.7.0
+	github.com/spf13/cobra v1.8.1
 	github.com/xanzy/go-gitlab v0.90.0
 )
 
